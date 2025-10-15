@@ -15,7 +15,6 @@ const Hero = () => {
           <div className="new-feature">
             New Feature <span>AI-Powered Trading Signals {" "}</span>
           </div>
-
           <h1>
             Trade Crypto
             <span>

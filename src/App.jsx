@@ -11,16 +11,14 @@ import Pricing from "./pages/Pricing";
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
-      
+      <Navbar />      
         <Routes>
           <Route path="/" element={<HomePage />}/>
           <Route path="/feature" element={<Feature/>}/>
           <Route path="/faq" element={<Faq/>}/>
           <Route path="/howitworks" element={<HowItWorks/>}/>
           <Route path="/pricing" element={<Pricing/>}/>
-        </Routes>
-    
+        </Routes>    
       <Footer/>
     </BrowserRouter>
   );

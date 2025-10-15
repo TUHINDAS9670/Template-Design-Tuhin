@@ -35,56 +35,6 @@ function Navbar() {
           )}
         </div>
       </div>
-      {/* 
-      <ul className="nav-link">
-        <li>
-          <Link
-            className="link"
-            to="features"
-            smooth={true}
-            offset={50}
-            duration={500}
-          >
-            Features
-          </Link>
-        </li>
-        <li>
-          <Link
-            className="link"
-            to="howitworks"
-            smooth={true}
-            offset={50}
-            duration={500}
-          >
-            How it Works
-          </Link>
-        </li>
-        <li>
-          <Link
-            className="link"
-            to="pricing"
-            smooth={true}
-            offset={50}
-            duration={500}
-          >
-            PRicing
-          </Link>
-        </li>
-        <li>
-          <Link
-            className="link"
-            to="faq"
-            smooth={true}
-            offset={50}
-            duration={500}
-          >
-            Faq
-          </Link>
-        </li>
-
-      </ul>
-      
-      */}
       <ul className="nav-link">
         <li>
           <Link className="link" to="/" onClick={closeMenu}>

@@ -7,7 +7,7 @@ import Stats from "../sections/Stats/Stats";
 import Faq from "../sections/Faq/Faq";
 import Revolution from "../sections/Revolution/Revolution";
 import Footer from "../sections/Footer/Footer";
-import Testimonials from "../components/Testimonials";
+import Testimonials from "../sections/Testimonial/Testimonials";
 
 const HomePage = () => {
   return (
