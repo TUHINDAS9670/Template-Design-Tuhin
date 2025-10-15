@@ -1,0 +1,57 @@
+
+.pricing-section {
+  padding: 60px 20px;
+  background-color: #0d0d11;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.title-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #c17bfaf3 ;
+}
+
+.title-text p {
+  font-size: 1rem;
+  color: #b0b0b0;
+  margin-bottom: 30px;
+}
+
+.subcription-type-button {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.toggle-button {
+  background-color: #1e1e2f;
+  color: #b0b0b0;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.toggle-button.active {
+  background-color: #8e7bfa;
+  color: #ffffff;
+}
+
+.annual-save .save-text {
+  font-size: 0.75rem;
+  color: #c0aaff;
+  margin-left: 5px;
+}
+
+.pricing-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  max-width: 1200px;
+  margin: 0 auto;
+}

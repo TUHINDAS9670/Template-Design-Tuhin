@@ -1,0 +1,80 @@
+.howitworks-section{
+  background: #101022;
+  color: white;
+  padding:60px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+}
+.text{
+  margin-bottom: 50px;
+}
+.text h1{
+  font-size: 2em;
+  color:rgb(166, 113, 216); 
+  margin-bottom: 10px;
+
+}
+.text p{
+  font-size: 1.5em;
+color: rgb(131, 126, 126);
+
+}
+.main-container{
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin: 0 auto 75px ;
+}
+.button {
+  background: #a88bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.button:hover{
+  background: #8b6eff;
+}
+
+@media(max-width: 768px) {
+    
+    .text h1 {
+        font-size: 1.8em;
+    }
+    
+    .text p {
+        font-size: 1.2em;
+    }
+
+    .main-container {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 35px; 
+        width: 90%; 
+        margin: 0 auto 50px;
+    }
+    
+  
+}
+
+
+@media(max-width:480px){
+  .howitworks-section{
+    padding: 40px 15px; 
+  }
+  .text h1 {
+      font-size: 1.6em;
+  }  
+  .text p {
+      font-size: 1em;
+  } 
+  .button {
+      width: 90%;
+      margin: 0 auto;
+      padding: 12px 20px;
+  }
+}

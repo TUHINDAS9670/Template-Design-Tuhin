@@ -1,0 +1,26 @@
+.card-item{
+  background-color: #22223c;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  min-height: 180px; 
+  max-width: 750px; 
+  
+}
+.card-item:hover{
+  background-color: #393965;
+
+}
+.feature-title {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.feature-description {
+    font-size: 1em;
+    color: #9e9d9d; 
+    line-height: 1.5;
+}

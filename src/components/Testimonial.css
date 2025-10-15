@@ -1,0 +1,160 @@
+
+.testimonials {
+  background: #0d111c;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.testimonials-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+
+.testimonial-slider {
+  overflow: hidden;
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.testimonial-track {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+.testimonial-slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.testimonials-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #b196ff;
+}
+
+.testimonials-subtitle {
+  color: #b0b3c1;
+  margin-top: 10px;
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+
+
+.testimonial-card {
+  background: #151a2b;
+  border-radius: 12px;
+  padding: 40px;
+  text-align: left;
+  margin: 0 auto;
+  box-shadow: 0 0 25px rgba(50, 50, 93, 0.1);
+  transition: all 0.6s ease-in-out;
+  opacity: 1;
+  position: relative;
+}
+
+
+.fade-in {
+  animation: slideIn 0.8s ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-30%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+.stars {
+  color: #ffc107;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+
+.testimonial-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #d4d7e2;
+  margin-bottom: 30px;
+}
+
+
+.testimonial-user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-avatar {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 2px solid #b196ff;
+  object-fit: cover;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.user-role {
+  color: #9ca0af;
+  font-size: 0.9rem;
+}
+
+
+.testimonial-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.testimonial-dots span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #666;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.testimonial-dots .active {
+  background: #a88cff;
+  width: 22px;
+  border-radius: 8px;
+}
+
+
+@media (max-width: 768px) {
+  .testimonials-title {
+    font-size: 2rem;
+  }
+
+  .testimonial-card {
+    padding: 25px;
+  }
+
+  .testimonial-text {
+    font-size: 1rem;
+  }
+
+  .user-avatar {
+    width: 45px;
+    height: 45px;
+  }
+}
