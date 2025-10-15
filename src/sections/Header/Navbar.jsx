@@ -4,6 +4,7 @@ import "./Navbar.css";
 import { Link, useNavigate } from "react-router-dom";
 import { HiOutlineMenu } from "react-icons/hi";
 import { IoMdClose } from "react-icons/io";
+import { navLinks } from "../../utils/NavLink";
 function Navbar() {
   const [isMenuOpen, setisMenuOpen] = useState(false);
   const navigate=useNavigate();
@@ -35,36 +36,16 @@ function Navbar() {
           )}
         </div>
       </div>
+      
       <ul className="nav-link">
-        <li>
-          <Link className="link" to="/" onClick={closeMenu}>
-            Home
+        {navLinks.map((items,idx)=>(
+          <li key={idx}>
+          <Link className="link" to={items.path} onClick={closeMenu}>
+            {items.name}
           </Link>
         </li>
-        <li>
-          <Link className="link" to="/feature"onClick={closeMenu}>
-            Features
-          </Link>
-        </li>
-        <li>
-          <Link className="link" to="/howitworks"onClick={closeMenu}>
-            How it Works
-          </Link>
-        </li>
-        <li>
-          <Link className="link" to="/pricing"onClick={closeMenu}>
-            Pricing
-          </Link>
-        </li>
-        <li>
-          <Link className="link" to="/faq"onClick={closeMenu}>
-            Faq
-          </Link>
-        </li>
-
-        {/* <li>Testimonials</li> */}
+        ))}
       </ul>
-
       <div className="button-div">
         <button className="login-button">Login</button>
         <button className="buy-now">Buy now</button>

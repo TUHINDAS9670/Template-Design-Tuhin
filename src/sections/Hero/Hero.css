@@ -61,7 +61,6 @@
  }
 .top-card {
   top: -20px;
-  /* right: -20px; */
   left: -10px;
   
 }
@@ -212,10 +211,6 @@
     margin-top: 30px;
   }
 }
-@media (max-width:768px) {
- 
-}
-
 
 @media (max-width: 486px) {
    .hero-content {

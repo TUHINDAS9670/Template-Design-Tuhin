@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Testimonial.css"
+import "../../sections/Testimonial/Testimonial.css"
 const TestimonialCard = ({quote,profile_pic,name,occupation}) => {
   return (
     <div className="testimonial-card fade-in">

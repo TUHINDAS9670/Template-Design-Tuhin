@@ -8,7 +8,7 @@ import { testimonialsData } from "../../utils/TestimonialData";
 const Testimonials = () => {
   const [current, setCurrent] = useState(0);
 
-  // Auto slide
+
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % testimonialsData.length);
@@ -25,7 +25,7 @@ const Testimonials = () => {
           experience with CryptoFlow.
         </p>
 
-        {/* SLIDER WRAPPER */}
+
         <div className="testimonial-slider">
           <div
             className="testimonial-track"
@@ -46,7 +46,7 @@ const Testimonials = () => {
           </div>
         </div>
 
-        {/* DOTS */}
+
         <div className="testimonial-dots">
           {testimonialsData.map((_, index) => (
             <span

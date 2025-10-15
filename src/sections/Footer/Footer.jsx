@@ -43,9 +43,9 @@ export default function Footer() {
         <div className="footer-links">
           {footerLinks.map((section, index) => (
             <div key={index}>
-              <h4>{section.title}</h4>
+              <h4>{section.linkHeading}</h4>
               <ul>
-                {section.links.map((link, i) => (
+                {section.linkItems.map((link, i) => (
                   <li key={i}>
                     <a href="#">{link}</a>
                   </li>
