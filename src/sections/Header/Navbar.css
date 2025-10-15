@@ -24,7 +24,7 @@
 .menu-icon{
   display: none;
   cursor: pointer;
-  top: 5px;
+  top: 12px;
   
   
 }
@@ -92,7 +92,7 @@
   align-items: center;
   gap: 30px;
 }
-@media (max-width:768px) {
+@media (max-width:900px) {
   .menu-icon{
     display: block;
     position: absolute;
